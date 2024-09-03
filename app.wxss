@@ -7,7 +7,6 @@ page{
 }
 .pub-fs-color{
   color: #555;
-
 }
 .pub-border{
   font-weight: bolder;
