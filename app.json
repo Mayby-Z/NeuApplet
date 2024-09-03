@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/neu/neu",
     "pages/more/more"
   ],
   "window": {
