@@ -1,0 +1,211 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #e0e5ec;
+  }
+  
+  .card {
+    width: 74vw;
+    background: #e0e5ec;
+    padding: 40rpx; 
+    border-radius: 30rpx; 
+    box-shadow: 16rpx 16rpx 32rpx #a3b1c6, -16rpx -16rpx 32rpx #ffffff; 
+  }
+  
+  .input-group,
+  .radio-group,
+  .select-group {
+    margin-bottom: 40rpx; 
+  }
+  
+  /* input */
+  .neumorphic-input {
+    padding: 20rpx; 
+    font-size: 32rpx; 
+    border-radius: 20rpx; 
+    background: #e0e5ec;
+    box-shadow: inset 10rpx 10rpx 20rpx #a3b1c6, inset -10rpx -10rpx 20rpx #ffffff; 
+    border: none;
+    outline: none;
+  }
+  
+  /* Radio */
+  .neumorphic-radio-group {
+    margin-bottom: 40rpx; 
+  }
+  
+  .neumorphic-radio {
+    margin-right: 40rpx; 
+    padding: 20rpx; 
+    border-radius: 24rpx; 
+    background: #e0e5ec;
+    box-shadow: 14rpx 14rpx 30rpx #a3b1c6, -14rpx -14rpx 30rpx #ffffff; 
+  }
+  
+  .neumorphic-radio radio {
+    margin-right: 10rpx; 
+  }
+  
+  /* button */
+  .neumorphic-button {
+    width: 100%;
+    padding: 30rpx; 
+    font-size: 36rpx; 
+    color: #555;
+    background: #e0e5ec;
+    border-radius: 20rpx;
+    border: none;
+    box-shadow: 10rpx 10rpx 20rpx #a3b1c6, -10rpx -10rpx 20rpx #ffffff; 
+    transition: all 0.2s ease;
+  }
+  
+  .neumorphic-button:active {
+    box-shadow: inset 10rpx 10rpx 20rpx #a3b1c6, inset -10rpx -10rpx 20rpx #ffffff; 
+  }
+  
+  /* switch */
+  .switch-group {
+    margin-bottom: 40rpx;
+  }
+  
+  .neumorphic-switch {
+    /* width: 100rpx; 
+    height: 50rpx; */
+    width: 102rpx;
+    border-radius: 50rpx;
+    background: #e0e5ec;
+    box-shadow: 10rpx 10rpx 20rpx #a3b1c6, -10rpx -10rpx 20rpx #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .neumorphic-switch:checked {
+    background: #6ab04c;
+  }
+  
+  .slider-group {
+    margin-bottom: 40rpx; 
+  }
+  
+  /* slider */
+  .neumorphic-slider {
+    height: 40rpx; 
+    background: #e0e5ec;
+    border-radius: 10rpx;
+    box-shadow: inset 10rpx 10rpx 20rpx #a3b1c6, inset -10rpx -10rpx 20rpx #ffffff; 
+  }
+  
+  .neumorphic-slider::-webkit-slider-thumb {
+    width: 40rpx; 
+    height: 40rpx; 
+    background: #e0e5ec;
+    border-radius: 50%;
+    box-shadow: 10rpx 10rpx 20rpx #a3b1c6, -10rpx -10rpx 20rpx #ffffff; 
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .neumorphic-slider::-webkit-slider-thumb:active {
+    box-shadow: inset 10rpx 10rpx 20rpx #a3b1c6, inset -10rpx -10rpx 20rpx #ffffff; 
+  }
+  
+  /* progress */
+  .progress-group {
+    margin-bottom: 40rpx;
+  }
+  
+  .neumorphic-progress {
+    width: 100%;
+    height: 20rpx; 
+    background: #e0e5ec;
+    border-radius: 20rpx;
+    box-shadow: inset 10rpx 10rpx 20rpx #a3b1c6, inset -10rpx -10rpx 20rpx #ffffff;
+    overflow: hidden;
+  }
+  
+  .neumorphic-progress-value {
+    height: 100%;
+    background: linear-gradient(145deg, #6ab04c, #badc58);
+    border-radius: 20rpx;
+    box-shadow: 6rpx 6rpx 12rpx #a3b1c6, -6rpx -6rpx 12rpx #ffffff; 
+  }
+  
+  /* checkbox */
+  .checkbox-group {
+    margin-bottom: 40rpx;
+  }
+  
+  .neumorphic-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20rpx; 
+  }
+  
+  .neumorphic-checkbox checkbox {
+    margin-right: 20rpx; 
+    width: 40rpx; 
+    height: 40rpx; 
+    background: #e0e5ec;
+    border-radius: 10rpx; 
+    box-shadow: 10rpx 10rpx 20rpx #a3b1c6, -10rpx -10rpx 20rpx #ffffff; 
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .neumorphic-checkbox checkbox:checked {
+    background: #6ab04c;
+    box-shadow: inset 10rpx 10rpx 20rpx #a3b1c6, inset -10rpx -10rpx 20rpx #ffffff; 
+  }
+  
+  /* 按钮组件 */
+  .icon-button-group {
+    margin-bottom: 80rpx;
+  }
+  
+  .neumorphic-icon-button {
+    width: 100rpx; 
+    height: 100rpx; 
+    padding: 20rpx; 
+    color: #555;
+    background: #e0e5ec;
+    border-radius: 20rpx; 
+    box-shadow: 10rpx 10rpx 20rpx #a3b1c6, -10rpx -10rpx 20rpx #ffffff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+    border: none;
+    outline: none;
+  }
+  
+  .neumorphic-icon-button:active {
+    box-shadow: inset 10rpx 10rpx 20rpx #a3b1c6, inset -10rpx -10rpx 20rpx #ffffff; 
+  }
+  
+  .icon-image {
+    width: 48rpx;
+    height: 48rpx; 
+  }
+  
+  /* tag */
+  .tag-group {
+    display: flex;
+    gap: 20rpx; 
+    margin-bottom: 40rpx; 
+  }
+  
+  .neumorphic-tag {
+    padding: 10rpx 20rpx; 
+    background: #e0e5ec;
+    border-radius: 50rpx; 
+    box-shadow: 10rpx 10rpx 20rpx #a3b1c6, -10rpx -10rpx 20rpx #ffffff; 
+    font-size: 28rpx; 
+    color: #555;
+    transition: all 0.2s ease;
+  }
+  
+  .neumorphic-tag:active {
+    box-shadow: inset 10rpx 10rpx 20rpx #a3b1c6, inset -10rpx -10rpx 20rpx #ffffff; 
+  }
+  
+  

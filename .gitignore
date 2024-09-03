@@ -6,12 +6,6 @@ temp/
 .cache/
 *.log
 
-# 编译生成的文件
-*.js
-*.json
-*.css
-*.wxss
-*.wxml
 
 # 小程序的配置文件
 project.config.json
