@@ -1,0 +1,12 @@
+<view class="container">
+
+  <view class="progress-group">
+    <progress class="neumorphic-progress"  percent="{{progressValue}}"duration="20" show-info active max="100"/>
+  </view>
+  
+  <view class="stepper-group">
+    <button bindtap="decreaseProgress" class="stepper-button">-</button>
+    <input class="neumorphic-input" type="number" value="{{progressValue}}" />
+    <button bindtap="increaseProgress" class="stepper-button">+</button>
+  </view>
+</view>

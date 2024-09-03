@@ -1,0 +1,58 @@
+<view class="container">
+    <view class="card">
+        <view class="input-group">
+            <input class="neumorphic-input" placeholder="请输入内容" />
+        </view>
+
+        <view class="neumorphic-radio-group">
+            <radio-group>
+                <label class="neumorphic-radio">
+                    <radio value="option1" /> 选项一
+                </label>
+                <label class="neumorphic-radio">
+                    <radio value="option2" /> 选项二
+                </label>
+            </radio-group>
+        </view>
+
+        <view class="switch-group">
+            <switch class="neumorphic-switch" />
+        </view>
+        <view class="progress-group">
+            <view class="neumorphic-progress">
+                <view class="neumorphic-progress-value" style="width: 50%;"></view>
+            </view>
+        </view>
+
+
+        <view class="checkbox-group">
+            <label class="neumorphic-checkbox">
+                <checkbox value="check1" /> 选项1
+            </label>
+            <label class="neumorphic-checkbox">
+                <checkbox value="check2" /> 选项2
+            </label>
+        </view>
+        <view class="tag-group">
+            <view class="neumorphic-tag">标签1</view>
+            <view class="neumorphic-tag">标签2</view>
+        </view>
+        <view class="icon-button-group">
+            <button class="neumorphic-icon-button">按钮</button>
+        </view>
+
+       
+
+
+
+        <view class="slider-group">
+            <slider class="neumorphic-slider" min="0" max="100" value="50" />
+        </view>
+
+
+
+
+
+        <button class="neumorphic-button" bind:tap="toMore">更多组件→</button>
+    </view>
+</view>
